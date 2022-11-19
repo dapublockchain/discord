@@ -19,6 +19,6 @@ jobs:
           node-version: 16
       - name: run index.js 
         run: 
-          node ./index.js
+          npm install && node ./index.js
 
 
