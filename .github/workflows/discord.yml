@@ -1,0 +1,12 @@
+name: Discord定时任务
+
+on:
+  schedule:
+    - cron: "50 17 * * *"
+
+jobs:
+  send-job:
+    steps:
+      - run: node ./index.js
+        shell: bash
+
