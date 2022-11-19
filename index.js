@@ -7,13 +7,9 @@ if (process.env.DISCORD != null) {
     const env_discord = process.env.DISCORD
     configs = JSON.parse(env_discord)
 }
-
 console.log(configs)
 
-return 
-
 let defaultMsg = configs.msg
-
 
 function sleep(ms) {
     console.log('等待:',ms)
