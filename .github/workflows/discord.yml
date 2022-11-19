@@ -20,5 +20,7 @@ jobs:
       - name: run index.js 
         run: 
           npm install && node ./index.js
+        env:
+          DISCORD: ${{secrets.DISCORD}}
 
 
