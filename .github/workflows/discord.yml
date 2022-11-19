@@ -19,7 +19,6 @@ jobs:
           node-version: 16
       - name: run index.js 
         run: 
-          echo hello,node
           node ./index.js
 
 
